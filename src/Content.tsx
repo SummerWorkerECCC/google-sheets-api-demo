@@ -46,8 +46,8 @@ const Content: React.FC = () => {
 
 const DisplayContents: React.FC<{ data: ContentArray }> = ({ data }) => (
     <Table data={data}>
-        <Table.Column prop='english' label='English' />
-        <Table.Column prop='chinese' label='Chinese' />
+        <Table.Column prop='english' label='Column 1' />
+        <Table.Column prop='chinese' label='Column 2' />
     </Table>
 )
 
