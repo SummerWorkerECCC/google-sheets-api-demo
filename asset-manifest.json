@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/google-sheets-api-demo/static/css/main.a617e044.chunk.css",
+    "main.js": "/google-sheets-api-demo/static/js/main.a2cf6729.chunk.js",
+    "main.js.map": "/google-sheets-api-demo/static/js/main.a2cf6729.chunk.js.map",
+    "runtime-main.js": "/google-sheets-api-demo/static/js/runtime-main.345e71f9.js",
+    "runtime-main.js.map": "/google-sheets-api-demo/static/js/runtime-main.345e71f9.js.map",
+    "static/js/2.856a8b21.chunk.js": "/google-sheets-api-demo/static/js/2.856a8b21.chunk.js",
+    "static/js/2.856a8b21.chunk.js.map": "/google-sheets-api-demo/static/js/2.856a8b21.chunk.js.map",
+    "static/js/3.5188c71d.chunk.js": "/google-sheets-api-demo/static/js/3.5188c71d.chunk.js",
+    "static/js/3.5188c71d.chunk.js.map": "/google-sheets-api-demo/static/js/3.5188c71d.chunk.js.map",
+    "index.html": "/google-sheets-api-demo/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/google-sheets-api-demo/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.856a8b21.chunk.js.LICENSE.txt": "/google-sheets-api-demo/static/js/2.856a8b21.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.345e71f9.js",
+    "static/js/2.856a8b21.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.a2cf6729.chunk.js"
+  ]
+}
