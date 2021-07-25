@@ -7,3 +7,7 @@ This demonstrated how we can fetch data from a google sheets and display it onto
 Note that while the rows of the data is dynamically fetched, we can not fetch the column names.
 
 Also, while this is using React, you can fetch the data using any language.
+
+## Deploy
+
+I deploy to Github pages, following the steps from [this article](https://github.com/gitname/react-gh-pages).
