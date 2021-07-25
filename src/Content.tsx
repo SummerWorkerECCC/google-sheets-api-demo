@@ -24,7 +24,7 @@ const Content: React.FC = () => {
 
     if (isLoading) {
         return <>
-            <Loading>Loading</Loading>
+            <Loading>Loading Data</Loading>
         </>
     }
 
