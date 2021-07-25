@@ -28,14 +28,14 @@ const Footer = () => (
             <Text small>Made by <Link href='https://github.com/joshuanianji' underline color>Joshua Ji</Link></Text>
         </Grid>
         <Grid xs={24} justify='center'>
-            <Text small style={{ textAlign: 'center' }}>Made with</Text>
+            <Text small style={{ textAlign: 'center' }}>Created with</Text>
             <Spacer w={0.33} />
             <ReactIcon size={20} />
             <Text small style={{ margin: '0px 8px' }}>+</Text>
             <TSIcon size={20} />
         </Grid>
         <Grid xs={24} justify='center'>
-            <Link href='https://github.com/joshuanianji' color block>
+            <Link href='https://github.com/SummerWorkerECCC/google-sheets-api-demo/tree/main' color block>
                 <GithubIcon size={20} />
             </Link>
         </Grid>
