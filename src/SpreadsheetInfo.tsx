@@ -6,7 +6,7 @@ const SpreadsheetInfo: React.FC<Props> = () => (
     <Grid.Container>
         <Grid xs={24} justify='center'>
             <Text h4 style={{ textAlign: 'center' }}>
-                Edit the spreadsheet below to see live changes!
+                Edit the spreadsheet in the link below to see live changes!
             </Text>
         </Grid>
         <Grid xs={24} justify='center'>
