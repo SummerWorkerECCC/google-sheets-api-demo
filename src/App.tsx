@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import React from 'react'
+import { Text, Page } from '@geist-ui/react'
+import Content from './Content'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+const App: React.FC = () => (
+    <Page >
+        <Page.Header>
+            <Text h1>Google Sheets API Demo</Text>
+        </Page.Header>
+        <Page.Content>
+            <Content />
+        </Page.Content>
+    </Page>
+)
+
 
 export default App;
