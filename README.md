@@ -1,5 +1,7 @@
 # Google Sheets API Demo
 
+**NOTE: The code has now been moved to the [Google Sheets](https://github.com/e3c-summer-worker/google-sheets) monorepo**
+
 A Demo with the [Google Sheets API](https://developers.google.com/sheets/) - THIS NEEDS TO BE UPDATED TO USE THE NEW API.
 
 This demonstrated how we can fetch data from a google sheets and display it onto a table.
