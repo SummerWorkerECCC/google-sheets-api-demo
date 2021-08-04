@@ -1,15 +1,16 @@
 import React from 'react'
 import useFetch from 'react-fetch-hook'
-import { ContentArray } from './data/Content'
+import { Response } from '../data/DetaResponse'
 import { Text, Table, Loading, Code, Note } from '@geist-ui/react'
 import { DecodeError } from 'io-ts/lib/Decoder'
 
 
 const Content: React.FC = () => {
-    const { isLoading, data, error } = useFetch('https://4y7qfk.deta.dev/content', {
+    const { isLoading, data, error } = useFetch('https://q77r6a.deta.dev/sheet/1MT2XUN_cMJA-tHjlxt7j_P6RwOZ9j08WIppq6BosKMo?formatRows=true', {
         formatter: async (response) => {
             const json = await response.json()
-            const decoded = ContentArray.decode(json)
+            const decoded = Response.decode(json)
+            console.log(decoded)
             return decoded
         }
     })
@@ -19,6 +20,7 @@ const Content: React.FC = () => {
             <Text h1 type='error'>HTTP Error!</Text>
             <Text>Code: {error.status}</Text>
             <Text>Message: {error.statusText}</Text>
+            <Text>Dump: {JSON.stringify(error, undefined, 4)}</Text>
         </>
     }
 
@@ -44,10 +46,9 @@ const Content: React.FC = () => {
     </div>
 }
 
-const DisplayContents: React.FC<{ data: ContentArray }> = ({ data }) => (
-    <Table data={data}>
-        <Table.Column prop='english' label='Column 1' />
-        <Table.Column prop='chinese' label='Column 2' />
+const DisplayContents: React.FC<{ data: Response }> = ({ data }) => (
+    <Table data={data.rows}>
+        {data.columnNames.map((colName, idx) => <Table.Column prop={colName} label={colName} key={idx} />)}
     </Table>
 )
 
