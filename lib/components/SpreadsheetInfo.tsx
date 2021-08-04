@@ -10,7 +10,7 @@ const SpreadsheetInfo: React.FC<Props> = () => (
             </Text>
         </Grid>
         <Grid xs={24} justify='center'>
-            <Link href="https://docs.google.com/spreadsheets/d/1plCq9_48CZgyrNXgD2Jalg1v0dz1rq3-0977FMuHcPo/edit?usp=sharing" block>
+            <Link href="https://docs.google.com/spreadsheets/d/1MT2XUN_cMJA-tHjlxt7j_P6RwOZ9j08WIppq6BosKMo/edit?usp=sharing" block>
                 Spreadsheet Link
             </Link>
         </Grid>

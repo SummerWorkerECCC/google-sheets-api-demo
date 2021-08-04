@@ -1,9 +1,8 @@
-import './App.css'
 import React from 'react'
 import { Text, Page, Grid, Link, Spacer } from '@geist-ui/react'
-import Content from './Content'
-import SpreadsheetInfo from './SpreadsheetInfo'
-import { GithubIcon, ReactIcon, TSIcon } from './components/icons';
+import Content from '@lib/components/Content'
+import SpreadsheetInfo from '@lib/components/SpreadsheetInfo'
+import { GithubIcon, ReactIcon, TSIcon } from '@lib/components/icons';
 
 
 const App: React.FC = () => (
