@@ -9,13 +9,6 @@ const Size = D.struct({
 type Size = D.TypeOf<typeof Size>
 
 
-const Row = D.array(D.string)
-
-// eslint-disable-next-line @typescript-eslint/no-redeclare
-type Row = D.TypeOf<typeof Row>
-
-
-
 export const Response = D.struct({
     id: D.string, // The ID of the spreadsheet
     name: D.string, // title of the Google Spreadsheet

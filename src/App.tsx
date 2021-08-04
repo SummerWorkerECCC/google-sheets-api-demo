@@ -1,14 +1,15 @@
 import React from 'react'
 import { Text, Page, Grid, Link, Spacer } from '@geist-ui/react'
-import Content from '@lib/components/Content'
-import SpreadsheetInfo from '@lib/components/SpreadsheetInfo'
-import { GithubIcon, ReactIcon, TSIcon } from '@lib/components/icons';
+import Content from './components/Content'
+import SpreadsheetInfo from './components/SpreadsheetInfo'
+import { GithubIcon, ReactIcon, TSIcon } from './components/icons';
+import './App.css'
 
 
 const App: React.FC = () => (
     <Page id='page'>
         <Page.Header center>
-            <Text h1 style={{ textAlign: 'center' }}>Google Sheets API Demo</Text>
+            <Text h1 style={{ textAlign: 'center' }}>Google Sheets API Demo - v2</Text>
         </Page.Header>
         <Page.Content>
             <SpreadsheetInfo />

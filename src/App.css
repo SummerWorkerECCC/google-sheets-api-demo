@@ -9,5 +9,6 @@
 
   #footer {
     left: 0;
+    position: relative;
   }
 }

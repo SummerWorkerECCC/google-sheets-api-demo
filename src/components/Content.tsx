@@ -1,6 +1,6 @@
 import React from 'react'
 import useFetch from 'react-fetch-hook'
-import { Response } from '@lib/data/DetaResponse'
+import { Response } from '../data/DetaResponse'
 import { Text, Table, Loading, Code, Note } from '@geist-ui/react'
 import { DecodeError } from 'io-ts/lib/Decoder'
 
